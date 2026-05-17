@@ -1,16 +1,15 @@
 {
   "version": 2,
-  "builds": [
+  "rewrites": [
     {
-      "src": "index.html",
-      "use": "@vercel/static"
+      "source": "/(.*)",
+      "destination": "index"
+    },
+    {
+      "source": "/assets/(.*)",
+      "destination": "/assets/$1"
     }
   ],
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "/$1"
-    }
-  ],
-  "outputDirectory": "dist"
+  "cleanUrls": true,
+  "trailingSlash": false
 }
