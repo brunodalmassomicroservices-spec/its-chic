@@ -2,7 +2,7 @@
 
 > **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
 
-**Goal:** Build a static responsive landing page for Its Chic Brasil that presents moda, joias, and semi-joias and drives visitors to Instagram `@itschicbr`.
+**Goal:** Build a static responsive landing page for Its Chic Brasil that presents moda, acessorios e semi-joias and drives visitors to Instagram `@itschicbr`.
 
 **Architecture:** Use a dependency-free static site so the page can open directly in a browser and later be hosted anywhere. Split structure, styling, and interaction into focused files: `index.html`, `styles.css`, and `script.js`. Use placeholder visuals shaped like product imagery until logo and product photos are available.
 
@@ -44,8 +44,8 @@ Create `index.html` with the full semantic section structure and real copy:
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Moda, joias e semi-joias da Its Chic Brasil. Conheca novidades e pecas para elevar seu look no Instagram @itschicbr.">
-    <title>Its Chic Brasil | Moda, Joias e Semi-joias</title>
+    <meta name="description" content="Moda, acessorios e semi-joias da Its Chic Brasil. Conheca novidades e pecas para elevar seu look no Instagram @itschicbr.">
+    <title>Its Chic Brasil | Moda, Acessorios e Semi-joias</title>
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
@@ -56,7 +56,7 @@ Create `index.html` with the full semantic section structure and real copy:
       </a>
       <nav class="site-nav" aria-label="Navegacao principal">
         <a href="#moda">Moda</a>
-        <a href="#joias">Joias</a>
+        <a href="#acessorios">Acessorios</a>
         <a href="#semijoias">Semi-joias</a>
         <a href="#destaques">Destaques</a>
       </nav>
@@ -69,7 +69,7 @@ Create `index.html` with the full semantic section structure and real copy:
       <section class="hero section-shell" aria-labelledby="hero-title">
         <div class="hero-copy">
           <p class="eyebrow">Curadoria premium acessivel</p>
-          <h1 id="hero-title">Moda, joias e semi-joias para elevar seu look</h1>
+          <h1 id="hero-title">Moda, acessorios e semi-joias para elevar seu look</h1>
           <p class="hero-text">
             Pecas femininas, acessorios delicados e semi-joias escolhidas para deixar o dia a dia mais chic sem perder a leveza.
           </p>
@@ -115,10 +115,10 @@ Create `index.html` with the full semantic section structure and real copy:
             <strong>Pecas femininas</strong>
             <small>Looks versateis para rotina, trabalho e momentos especiais.</small>
           </a>
-          <a id="joias" class="category-card" href="https://www.instagram.com/itschicbr/" target="_blank" rel="noopener">
-            <span>Joias</span>
+          <a id="acessorios" class="category-card" href="https://www.instagram.com/itschicbr/" target="_blank" rel="noopener">
+            <span>Acessorios</span>
             <strong>Brilho na medida</strong>
-            <small>Aneis, brincos e colares para valorizar o visual.</small>
+            <small>Pecas delicadas para valorizar o visual.</small>
           </a>
           <a id="semijoias" class="category-card" href="https://www.instagram.com/itschicbr/" target="_blank" rel="noopener">
             <span>Semi-joias</span>
@@ -168,7 +168,7 @@ Create `index.html` with the full semantic section structure and real copy:
 
     <footer class="site-footer">
       <span>Its Chic Brasil</span>
-      <span>Moda, joias e semi-joias</span>
+      <span>Moda, acessorios e semi-joias</span>
       <span id="current-year"></span>
     </footer>
 
@@ -772,7 +772,7 @@ Confirm the implementation includes:
 - Header with brand, nav, and Instagram handle.
 - Hero with promise, supporting copy, CTA, and product-style mosaic.
 - Benefits strip.
-- Category cards for Moda, Joias, Semi-joias, and Bolsas/Acessorios.
+- Category cards for Moda, Acessorios, Semi-joias, and Bolsas/Acessorios.
 - Highlights/vitrine section.
 - Social proof section referencing Instagram without fake testimonials.
 - Final CTA.
@@ -793,3 +793,8 @@ C:\desenvolvimento\its-chic\index.html
 ```
 
 Expected: opening this file displays the landing page without a dev server.
+
+
+
+
+
