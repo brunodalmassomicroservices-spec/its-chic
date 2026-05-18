@@ -2,7 +2,7 @@
 
 > **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
 
-**Goal:** Build a static responsive landing page for Its Chic Brasil that presents Moda e acessorios and drives visitors to Instagram `@itschicbr`.
+**Goal:** Build a static responsive landing page for Its Chic Brasil that presents moda, acessorios e semi-joias and drives visitors to Instagram `@itschicbr`.
 
 **Architecture:** Use a dependency-free static site so the page can open directly in a browser and later be hosted anywhere. Split structure, styling, and interaction into focused files: `index.html`, `styles.css`, and `script.js`. Use placeholder visuals shaped like product imagery until logo and product photos are available.
 
@@ -44,8 +44,8 @@ Create `index.html` with the full semantic section structure and real copy:
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Moda e acessorios da Its Chic Brasil. Conheca novidades e pecas para elevar seu look no Instagram @itschicbr.">
-    <title>Its Chic Brasil | Moda e Acessorios</title>
+    <meta name="description" content="Moda, acessorios e semi-joias da Its Chic Brasil. Conheca novidades e pecas para elevar seu look no Instagram @itschicbr.">
+    <title>Its Chic Brasil | Moda, Acessorios e Semi-joias</title>
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
@@ -57,7 +57,7 @@ Create `index.html` with the full semantic section structure and real copy:
       <nav class="site-nav" aria-label="Navegacao principal">
         <a href="#moda">Moda</a>
         <a href="#acessorios">Acessorios</a>
-        <a href="#bolsas">Bolsas</a>
+        <a href="#semijoias">Semi-joias</a>
         <a href="#destaques">Destaques</a>
       </nav>
       <a class="header-cta" href="https://www.instagram.com/itschicbr/" target="_blank" rel="noopener" aria-label="Abrir Instagram da Its Chic Brasil">
@@ -69,9 +69,9 @@ Create `index.html` with the full semantic section structure and real copy:
       <section class="hero section-shell" aria-labelledby="hero-title">
         <div class="hero-copy">
           <p class="eyebrow">Curadoria premium acessivel</p>
-          <h1 id="hero-title">Moda e acessorios para elevar seu look</h1>
+          <h1 id="hero-title">Moda, acessorios e semi-joias para elevar seu look</h1>
           <p class="hero-text">
-            Pecas femininas e acessorios delicados escolhidos para deixar o dia a dia mais chic sem perder a leveza.
+            Pecas femininas, acessorios delicados e semi-joias escolhidas para deixar o dia a dia mais chic sem perder a leveza.
           </p>
           <div class="hero-actions">
             <a class="button primary" href="https://www.instagram.com/itschicbr/" target="_blank" rel="noopener">
@@ -120,15 +120,15 @@ Create `index.html` with the full semantic section structure and real copy:
             <strong>Brilho na medida</strong>
             <small>Pecas delicadas para valorizar o visual.</small>
           </a>
-          <a id="bolsas" class="category-card" href="https://www.instagram.com/itschicbr/" target="_blank" rel="noopener">
-            <span>Bolsas</span>
-            <strong>Composicao completa</strong>
-            <small>Modelos versateis para deixar o look pronto.</small>
+          <a id="semijoias" class="category-card" href="https://www.instagram.com/itschicbr/" target="_blank" rel="noopener">
+            <span>Semi-joias</span>
+            <strong>Dourados delicados</strong>
+            <small>Acabamento bonito e presenca para usar todos os dias.</small>
           </a>
           <a class="category-card" href="https://www.instagram.com/itschicbr/" target="_blank" rel="noopener">
-            <span>Novidades</span>
-            <strong>Achadinhos da semana</strong>
-            <small>Itens selecionados para acompanhar o feed da marca.</small>
+            <span>Bolsas e acessorios</span>
+            <strong>Composicao completa</strong>
+            <small>Detalhes que deixam o look pronto em poucos minutos.</small>
           </a>
         </div>
       </section>
@@ -168,7 +168,7 @@ Create `index.html` with the full semantic section structure and real copy:
 
     <footer class="site-footer">
       <span>Its Chic Brasil</span>
-      <span>Moda e acessorios</span>
+      <span>Moda, acessorios e semi-joias</span>
       <span id="current-year"></span>
     </footer>
 
@@ -772,7 +772,7 @@ Confirm the implementation includes:
 - Header with brand, nav, and Instagram handle.
 - Hero with promise, supporting copy, CTA, and product-style mosaic.
 - Benefits strip.
-- Category Cards for Moda, Acessorios, Bolsas, and Novidades.
+- Category cards for Moda, Acessorios, Semi-joias, and Bolsas/Acessorios.
 - Highlights/vitrine section.
 - Social proof section referencing Instagram without fake testimonials.
 - Final CTA.
@@ -793,6 +793,7 @@ C:\desenvolvimento\its-chic\index.html
 ```
 
 Expected: opening this file displays the landing page without a dev server.
+
 
 
 
