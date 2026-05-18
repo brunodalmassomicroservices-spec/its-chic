@@ -2,13 +2,13 @@
 
 ## Context
 
-Its Chic Brasil needs an initial landing page for moda, joias e semi-joias. The brand already exists on Instagram as `@itschicbr`. The available reference is a screenshot of the Instagram profile, showing a pink circular logo, gold jewelry, light product photos, and accessible social-commerce language.
+Its Chic Brasil needs an initial landing page for Moda e acessorios. The brand already exists on Instagram as `@itschicbr`. The available reference is a screenshot of the Instagram profile, showing a pink circular logo, gold accessories, light product photos, and accessible social-commerce language.
 
 The chosen direction is **colecao premium acessivel**: the page should feel polished and trustworthy, but still easy to approach and clearly connected to Instagram.
 
 ## Goals
 
-- Present Its Chic Brasil as a quality/premium-accessible brand for fashion, jewelry, semi-jewelry, and accessories.
+- Present Its Chic Brasil as a quality/premium-accessible brand for fashion and accessories.
 - Drive visitors to Instagram as the primary conversion path.
 - Communicate quickly what the brand sells and why the visitor should follow or shop.
 - Work well as a landing destination from Instagram bio links, paid traffic, shared links, and QR codes.
@@ -22,14 +22,14 @@ The chosen direction is **colecao premium acessivel**: the page should feel poli
 
 ## Audience
 
-The page is aimed at women looking for everyday pieces that make an outfit feel more polished: accessories, semi-jewelry, jewelry, bags, and fashion items. The tone should be warm, direct, feminine, and commercial without feeling cheap or overly promotional.
+The page is aimed at women looking for everyday pieces that make an outfit feel more polished: accessories, bags, and fashion items. The tone should be warm, direct, feminine, and commercial without feeling cheap or overly promotional.
 
 ## Visual Direction
 
 The page should use a light, refined palette inspired by the Instagram reference:
 
 - Soft pink as the primary brand accent and CTA color.
-- Warm gold accents for jewelry and highlight details.
+- Warm gold accents for accessories and highlight details.
 - Light blush, white, and soft neutral backgrounds.
 - Dark warm text for contrast and readability.
 
@@ -41,11 +41,11 @@ Typography should pair an elegant serif-style display heading with clean sans-se
 
 1. **Header**
    - Brand name: `It's Chic Brasil`.
-   - Short navigation anchors: Moda, Joias, Semi-joias, Destaques.
+   - Short navigation anchors: Moda, Acessorios, Bolsas, Destaques.
    - Instagram handle or CTA link to `@itschicbr`.
 
 2. **Hero**
-   - Main headline: a clear promise around elevating the look with moda, joias, and semi-joias.
+   - Main headline: a clear promise around elevating the look with Moda e acessorios.
    - Supporting copy: premium-accessible curation for everyday style.
    - Primary CTA: open Instagram profile.
    - Secondary signal: show `@itschicbr` visibly.
@@ -58,7 +58,7 @@ Typography should pair an elegant serif-style display heading with clean sans-se
      - Premium acessivel.
 
 4. **Categories**
-   - Cards for Moda, Joias, Semi-joias, and Bolsas/Acessorios.
+   - Cards for Moda, Acessorios, Bolsas, and Novidades.
    - Each card should be scannable and direct users toward Instagram rather than opening complex category pages.
 
 5. **Highlights / Vitrine**
@@ -79,11 +79,11 @@ Typography should pair an elegant serif-style display heading with clean sans-se
 
 Suggested hero headline:
 
-> Moda, joias e semi-joias para elevar seu look
+> Moda e acessorios para elevar seu look
 
 Suggested supporting copy:
 
-> Pecas femininas, acessorios delicados e semi-joias escolhidas para deixar o dia a dia mais chic sem perder a leveza.
+> Pecas femininas e acessorios delicados escolhidos para deixar o dia a dia mais chic sem perder a leveza.
 
 Suggested CTA:
 
@@ -166,4 +166,6 @@ The implementation should be verified with:
 - Final logo file is not available yet.
 - Final product photos are not available yet.
 - Placeholder visuals should be replaced when final logo and product photos become available.
+
+
 
